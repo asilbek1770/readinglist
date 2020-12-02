@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background: #553055;
+}
+.App{
+    background: #4c2a4c;
+    margin: 20px auto;
+    padding-bottom: 5px ;
+    width: 90%;
+    max-width: 700px;
+    color: #eee;
+}
+.navbar{
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    background: #6d3d6d;
+}
+.navbar h1{
+    margin: 10px 0;
+}
+.book-list{
+    margin: 20px
+}
+.book-list ul{
+    margin-bottom: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+.book-list li {
+    background: #6d3d6d;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.book-list li:hover{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.book-list .title{
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.book-list .title{
+    font-weight: bold;
+    color: #ddd;
+    font-size: 0.9rem;
+}
+.empty{
+    margin: 20px;
+    text-align: center;
+}
+form{
+    padding: 20px;
+}
+input[type='text']{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 6px 0;
+    background: #3c1f3c;
+    color: #fff;
+    border: 0;
+
+}
+input[type='submit']{
+    margin: 10px auto;
+    background: #6d3d6d;
+    border: 0;
+    padding: 6px 20px;
+    display: block;
+    color: #ddd;
+}
+input[type='submit']:hover{
+    color: #3c1f3c;
+}
